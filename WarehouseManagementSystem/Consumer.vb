@@ -1,5 +1,5 @@
 ﻿Imports MySql.Data.MySqlClient
-Public Class Sales
+Public Class Consumer
     Private Sub btn_add_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_add.Click
         If txtnum.Text = "" Then
             MsgBox("Enter Company number")

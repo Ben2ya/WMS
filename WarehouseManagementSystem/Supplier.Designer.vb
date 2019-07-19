@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class CPurchase
+Partial Class Supplier
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -111,9 +111,9 @@ Partial Class CPurchase
         Me.Label4.Font = New System.Drawing.Font("Algerian", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(128, 35)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(390, 30)
+        Me.Label4.Size = New System.Drawing.Size(376, 30)
         Me.Label4.TabIndex = 23
-        Me.Label4.Text = "PURCHASE COMPANY DETAILS"
+        Me.Label4.Text = "SUPPLIER COMPANY DETAILS"
         '
         'txtraw
         '
@@ -139,7 +139,7 @@ Partial Class CPurchase
         Me.DataGridView1.Size = New System.Drawing.Size(278, 150)
         Me.DataGridView1.TabIndex = 24
         '
-        'Purchase
+        'Supplier
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -156,7 +156,7 @@ Partial Class CPurchase
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txtraw)
         Me.Controls.Add(Me.Label3)
-        Me.Name = "Purchase"
+        Me.Name = "Supplier"
         Me.Text = "Purchase"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

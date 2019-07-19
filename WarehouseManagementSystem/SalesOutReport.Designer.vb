@@ -26,6 +26,7 @@ Partial Class SalesOutReport
         Me.ButtonSearch = New System.Windows.Forms.Button()
         Me.TextBoxKeyword = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -71,11 +72,20 @@ Partial Class SalesOutReport
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Sales Out Report"
         '
+        'ReportViewer1
+        '
+        Me.ReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.ReportViewer1.Location = New System.Drawing.Point(0, 54)
+        Me.ReportViewer1.Name = "ReportViewer1"
+        Me.ReportViewer1.Size = New System.Drawing.Size(780, 400)
+        Me.ReportViewer1.TabIndex = 2
+        '
         'SalesOutReport
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(780, 454)
+        Me.Controls.Add(Me.ReportViewer1)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "SalesOutReport"
         Me.Text = "SalesOutReport"
@@ -88,4 +98,5 @@ Partial Class SalesOutReport
     Friend WithEvents ButtonSearch As System.Windows.Forms.Button
     Friend WithEvents TextBoxKeyword As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
 End Class

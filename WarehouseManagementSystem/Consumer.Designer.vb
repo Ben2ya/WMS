@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Sales
+Partial Class Consumer
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -41,9 +41,9 @@ Partial Class Sales
         Me.Label3.Font = New System.Drawing.Font("Algerian", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(178, 63)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(282, 24)
+        Me.Label3.Size = New System.Drawing.Size(325, 24)
         Me.Label3.TabIndex = 28
-        Me.Label3.Text = "SALES COMPANY DETAILS"
+        Me.Label3.Text = "CONSUMER COMPANY DETAILS"
         '
         'btn_clr
         '
@@ -123,7 +123,7 @@ Partial Class Sales
         Me.DataGridView1.Size = New System.Drawing.Size(240, 150)
         Me.DataGridView1.TabIndex = 29
         '
-        'Sales
+        'Consumer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -138,7 +138,7 @@ Partial Class Sales
         Me.Controls.Add(Me.txtname)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Sales"
+        Me.Name = "Consumer"
         Me.Text = "Sales"
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

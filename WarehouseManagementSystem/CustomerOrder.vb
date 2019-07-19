@@ -176,9 +176,9 @@ Public Class CustomerOrder
         connect()
         reload()
         loadgrid()
-        empno()
-        compname()
-        checkID()
+        '  empno()
+        ' compname()
+        ' checkID()
         Button2.Enabled = False
         Button3.Enabled = False
 

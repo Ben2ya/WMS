@@ -15,13 +15,13 @@ Public Class MainPage
         EmpDetails.Show()
     End Sub
     Private Sub PURCHASEToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PURCHASEToolStripMenuItem.Click
-        CPurchase.MdiParent = Me
-        CPurchase.Show()
+        Supplier.MdiParent = Me
+        Supplier.Show()
     End Sub
 
     Private Sub SALESToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles SALESToolStripMenuItem1.Click
-        Sales.MdiParent = Me
-        Sales.Show()
+        Consumer.MdiParent = Me
+        Consumer.Show()
     End Sub
     Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
         Salary.MdiParent = Me
@@ -45,8 +45,8 @@ Public Class MainPage
         Application.Exit()
     End Sub
     Private Sub NEWSTOCKToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NEWSTOCKToolStripMenuItem.Click
-        NPurchase.MdiParent = Me
-        NPurchase.Show()
+        SupplierDetails.MdiParent = Me
+        SupplierDetails.Show()
     End Sub
     Private Sub RAWMATERIALSTOCKToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RAWMATERIALSTOCKToolStripMenuItem.Click
         stock.MdiParent = Me
@@ -64,11 +64,11 @@ Public Class MainPage
         CustomerOrder.MdiParent = Me
         CustomerOrder.Show()
     End Sub
-    Private Sub INSALESToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles INSALESToolStripMenuItem.Click
+    Private Sub INSALESToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LOCALSALESToolStripMenuItem.Click
         Salesin.MdiParent = Me
         Salesin.Show()
     End Sub
-    Private Sub OUTSALESToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles OUTSALESToolStripMenuItem.Click
+    Private Sub OUTSALESToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles INTERNATIONALSALESToolStripMenuItem.Click
         SalesOut.MdiParent = Me
         SalesOut.Show()
     End Sub

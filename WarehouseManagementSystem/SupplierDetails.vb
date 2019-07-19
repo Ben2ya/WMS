@@ -1,6 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 Imports System.Data.SqlClient
-Public Class NPurchase
+Public Class SupplierDetails
     Public COMMAND As MySqlCommand
     Dim adapter As New MySqlDataAdapter
     Private Sub frmpurchase_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -83,11 +83,11 @@ Public Class NPurchase
 
     Sub loadcheck()
         sql = "select * from tbl_purchase where date= '" & DateTimePicker1.Value & "' and compno='" & txtnum.Text & "' "
-       VbConnection.Login(sql)
+        VbConnection.Login(sql)
         DataGridView1.Rows.Clear()
         Dim i
         i = 0
-     
+
     End Sub
 
 
@@ -134,10 +134,10 @@ Public Class NPurchase
         Dim adapter As New MySqlDataAdapter("select * from tbl_purchase", con)
         adapter.Fill(rs)
         DataGridView1.DataSource = rs
-       
+
     End Sub
-    
-    
+
+
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         sql = "update tbl_purchase set purchaseid='" & txtno.Text & "',compno='" & txtnum.Text & "','" & DateTimePicker1.Value & "',invoice_no='" & txtinvoiceno.Text & "',invoice_date='" & DateTimePicker2.Value & "', disc_goods='" & txtraw.Text & "',quantity='" & txtqty.Text & "',amt='" & txtamt.Text & "',taxper='" & txttax.Text & "',taxamt='" & txttaxamt.Text & "',total='" & txttotamt.Text & "' where purchaseid='" & DataGridView1.CurrentRow.Cells(0).Value & "'"

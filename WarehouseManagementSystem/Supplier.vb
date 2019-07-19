@@ -1,5 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
-Public Class CPurchase
+Public Class Supplier
+    Dim cmd As New mysqlcommand
 
     Private Sub btn_add_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btn_add.Click
         If txtname.Text = "" Then
@@ -35,7 +36,7 @@ Public Class CPurchase
     Private Sub DataGridView1_CellClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellClick
         btn_update.Enabled = True
         btn_del.Enabled = True
-        btn_add.Enabled = false
+        btn_add.Enabled = False
         SendToTxtBox(e.RowIndex)
     End Sub
 

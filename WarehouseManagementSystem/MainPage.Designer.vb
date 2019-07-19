@@ -44,8 +44,8 @@ Partial Class MainPage
         Me.TRANSACTIONToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CUSTOMERORDERToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SALESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.INSALESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.OUTSALESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LOCALSALESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.INTERNATIONALSALESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HELPToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.EXITToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
@@ -99,14 +99,14 @@ Partial Class MainPage
         'PURCHASEToolStripMenuItem
         '
         Me.PURCHASEToolStripMenuItem.Name = "PURCHASEToolStripMenuItem"
-        Me.PURCHASEToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
-        Me.PURCHASEToolStripMenuItem.Text = "PURCHASE"
+        Me.PURCHASEToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PURCHASEToolStripMenuItem.Text = "SUPPLIER"
         '
         'SALESToolStripMenuItem1
         '
         Me.SALESToolStripMenuItem1.Name = "SALESToolStripMenuItem1"
-        Me.SALESToolStripMenuItem1.Size = New System.Drawing.Size(131, 22)
-        Me.SALESToolStripMenuItem1.Text = "SALES"
+        Me.SALESToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.SALESToolStripMenuItem1.Text = "CONSUMER"
         '
         'ToolStripMenuItem3
         '
@@ -197,22 +197,22 @@ Partial Class MainPage
         '
         'SALESToolStripMenuItem
         '
-        Me.SALESToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.INSALESToolStripMenuItem, Me.OUTSALESToolStripMenuItem})
+        Me.SALESToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LOCALSALESToolStripMenuItem, Me.INTERNATIONALSALESToolStripMenuItem})
         Me.SALESToolStripMenuItem.Name = "SALESToolStripMenuItem"
         Me.SALESToolStripMenuItem.Size = New System.Drawing.Size(174, 22)
         Me.SALESToolStripMenuItem.Text = "SALES REPORT"
         '
-        'INSALESToolStripMenuItem
+        'LOCALSALESToolStripMenuItem
         '
-        Me.INSALESToolStripMenuItem.Name = "INSALESToolStripMenuItem"
-        Me.INSALESToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
-        Me.INSALESToolStripMenuItem.Text = "IN SALES"
+        Me.LOCALSALESToolStripMenuItem.Name = "LOCALSALESToolStripMenuItem"
+        Me.LOCALSALESToolStripMenuItem.Size = New System.Drawing.Size(197, 22)
+        Me.LOCALSALESToolStripMenuItem.Text = "LOCAL SALES"
         '
-        'OUTSALESToolStripMenuItem
+        'INTERNATIONALSALESToolStripMenuItem
         '
-        Me.OUTSALESToolStripMenuItem.Name = "OUTSALESToolStripMenuItem"
-        Me.OUTSALESToolStripMenuItem.Size = New System.Drawing.Size(132, 22)
-        Me.OUTSALESToolStripMenuItem.Text = "OUT SALES"
+        Me.INTERNATIONALSALESToolStripMenuItem.Name = "INTERNATIONALSALESToolStripMenuItem"
+        Me.INTERNATIONALSALESToolStripMenuItem.Size = New System.Drawing.Size(197, 22)
+        Me.INTERNATIONALSALESToolStripMenuItem.Text = "INTERNATIONAL SALES"
         '
         'HELPToolStripMenuItem
         '
@@ -282,8 +282,8 @@ Partial Class MainPage
     Friend WithEvents TRANSACTIONToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents CUSTOMERORDERToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SALESToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents INSALESToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents OUTSALESToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents LOCALSALESToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents INTERNATIONALSALESToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents HELPToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents EXITToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
